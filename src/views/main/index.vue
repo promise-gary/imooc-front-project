@@ -72,7 +72,9 @@ onActivated(() => {
   containerTarget.value.scrollTop = containerTargetScrollY.value
 })
 
-const onVipClick = () => {}
+const onVipClick = () => {
+  router.push('/member')
+}
 
 const onMyClick = () => {
   if (store.getters.token) {

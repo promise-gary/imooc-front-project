@@ -14,6 +14,14 @@ export default [
         name: 'profile',
         component: () => import('@/views/profile/index.vue'),
         meta: {
+          user: true // 需要登录才可以访问
+        }
+      },
+      {
+        path: '/member',
+        name: 'member',
+        component: () => import('@/views/member/index.vue'),
+        meta: {
           user: true
         }
       }
