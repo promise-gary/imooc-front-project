@@ -1,0 +1,36 @@
+{
+  "name": "imooc-font",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "ali-oss": "6.17.0",
+    "axios": "^1.14.0",
+    "cropperjs": "1.5.12",
+    "driver.js": "0.9.8",
+    "file-saver": "^2.0.5",
+    "gsap": "3.9.1",
+    "md5": "^2.3.0",
+    "vee-validate": "4.5.10",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.4",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "fast-glob": "^3.3.3",
+    "sass": "^1.98.0",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.1",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
