@@ -47,3 +47,6 @@ export const LOGIN_TYPE_USERNAME = 'username'
 // 上传方式
 export const REGION = 'oss-cn-beijing'
 export const BUCKET = 'imooc-front'
+
+// 兔小巢反馈地址
+export const FEEDBACK_URL = 'https://txc.qq.com/products/800003'
